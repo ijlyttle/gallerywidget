@@ -1,0 +1,16 @@
+Package: gallerywidget
+Title: Create a HTML Gallery with Links
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Ian",
+           family = "Lyttle",
+           role = c("aut", "cre"),
+           email = "ian.lyttle@schneider-electric.com",
+           comment = structure("0000-0001-9962-4849", .Names = "ORCID"))
+Description: This package helps you create a gallery with links, inspired by the 
+  Blocks website, <https://bl.ocks.org>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/ijlyttle/gallerywidget
+BugReports: https://github.com/ijlyttle/gallerywidget/issues
