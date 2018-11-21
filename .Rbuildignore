@@ -1,3 +1,5 @@
+^docs$
+^README\.Rmd$
 ^data-raw$
 ^gallerywidget\.Rproj$
 ^\.Rproj\.user$

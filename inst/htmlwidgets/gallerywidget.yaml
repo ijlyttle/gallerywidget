@@ -1,0 +1,6 @@
+dependencies:
+  - name: gallerywidget
+    version: 0.0.1
+    src: htmlwidgets/lib/gallerywidget-0.0.1
+    stylesheet:
+    - gallerywidget.css

@@ -22,3 +22,5 @@ Suggests:
     devtools
 RoxygenNote: 6.1.0
 Roxygen: list(markdown = TRUE)
+Imports: 
+    htmlwidgets
