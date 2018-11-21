@@ -1,0 +1,34 @@
+---
+title: Data
+output: github_document
+---
+
+The purpose of this document is to create the package data.
+
+
+```{r}
+library("jsonlite")
+library("magrittr")
+library("tibble")
+library("devtools")
+```
+
+## Generate package-data
+
+### htmlwidgets example
+
+This data is manually scraped from the [htmlwidgets gallery](http://gallery.htmlwidgets.org).
+
+```{r}
+data_htmlwidgets <- 
+  fromJSON("example.json") %>% 
+  glimpse()
+```
+
+## Write out package-data
+
+```{r}
+use_data(data_htmlwidgets, overwrite = TRUE)
+```
+
+

@@ -1,0 +1,38 @@
+[
+  {
+    "href": "https://plot.ly/r",
+    "image": "http://gallery.htmlwidgets.org/images/ropensci-plotly.png",
+    "title": "plotly",
+    "subtitle": "Carson Sievert"
+  },
+  {
+    "href": "https://rich-iannone.github.io/DiagrammeR",
+    "image": "http://gallery.htmlwidgets.org/images/rich-iannone-DiagrammeR.png",
+    "title": "DiagrammeR",
+    "subtitle": "Rich Iannone"
+  },
+  {
+    "href": "https://rstudio.github.io/leaflet",
+    "image": "http://gallery.htmlwidgets.org/images/rstudio-leaflet.png",
+    "title": "leaflet",
+    "subtitle": "Joe Cheng"
+  },
+  {
+    "href": "https://christophergandrud.github.io/networkD3",
+    "image": "http://gallery.htmlwidgets.org/images/christophergandrud-networkD3.png",
+    "title": "networkD3",
+    "subtitle": "Christopher Gandrud"
+  },
+  {
+    "href": "https://renkun-ken.github.io/formattable",
+    "image": "http://gallery.htmlwidgets.org/images/renkun-ken-formattable.png",
+    "title": "formattable",
+    "subtitle": "Kun Ren"
+  },
+  {
+    "href": "http://jkunst.com/highcharter/",
+    "image": "http://gallery.htmlwidgets.org/images/highcharter.png",
+    "title": "highcharter",
+    "subtitle": "Joshua Kunst"
+  }
+]
