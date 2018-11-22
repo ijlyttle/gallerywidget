@@ -59,3 +59,12 @@ The `gallerywidget()` function is used to render the widget:
 gallerywidget(data_htmlwidgets)
 ```
 
+------
+
+## Acknowledgements
+
+As mentioned above, this work is inspired by the galleries for from Mike Bostock's
+[blocks website](https://bl.ocks.org), as well as the [Vega-Lite website](https://vega.github.io/vega-lite). The css is a mix of the css from both of these sites - I trust that it is cool with all involved that their code is repurposed in this fashion.
+
+
+

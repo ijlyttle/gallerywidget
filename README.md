@@ -62,3 +62,13 @@ gallerywidget(data_htmlwidgets)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+
+-----
+
+## Acknowledgements
+
+As mentioned above, this work is inspired by the galleries for from Mike
+Bostock’s [blocks website](https://bl.ocks.org), as well as the
+[Vega-Lite website](https://vega.github.io/vega-lite). The css is a mix
+of the css from both of these sites - I trust that it is cool with all
+involved that their code is repurposed in this fashion.

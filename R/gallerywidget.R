@@ -13,5 +13,5 @@ gallerywidget <- function(data) {
   x <- list(data = data)
 
   # create the widget
-  htmlwidgets::createWidget("gallerywidget", x, width = NULL, height = NULL)
+  htmlwidgets::createWidget("gallerywidget", x, width = "auto", height = "auto")
 }
