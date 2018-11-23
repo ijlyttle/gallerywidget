@@ -59,8 +59,6 @@ The `gallerywidget()` function is used to render the widget:
 gallerywidget(data_htmlwidgets)
 ```
 
-------
-
 ## Acknowledgements
 
 As mentioned above, this work is inspired by the galleries for from Mike Bostock's

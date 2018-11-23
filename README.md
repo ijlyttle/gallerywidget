@@ -63,8 +63,6 @@ gallerywidget(data_htmlwidgets)
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
------
-
 ## Acknowledgements
 
 As mentioned above, this work is inspired by the galleries for from Mike
