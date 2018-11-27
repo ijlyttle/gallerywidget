@@ -1,4 +1,13 @@
 /* adapted from https://bl.ocks.org */
+
+/* using 20px at top - when preview elements are placed,
+ * each is "dragged" up by 10px, leaving 10px at top
+ * and bottom of the gallerywidget
+ */
+.gallerywidget {
+  margin: 20px 0 0 0;
+}
+
 .gallerywidget-title {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -16,9 +25,10 @@
 
     color: #000;
     padding: 8px 10px;
+    /* "drags"" the element up 10 px, see .gallerywidget css */
     margin: -10px 0 10px 0;
 
-    background-position: 50% 0%;
+    background-position: left top;
     background-size: cover;
     border: solid 1px #eee;
     /* border-bottom: solid 1px #ccc; */
@@ -51,7 +61,5 @@
   padding: 7px 9px;
 }
 
-.gallerywidget {
-  margin: 20px 0 0 0;
-}
+
 
