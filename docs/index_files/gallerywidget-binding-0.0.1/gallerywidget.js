@@ -28,6 +28,10 @@ HTMLWidgets.widget({
           preview.setAttribute("href", row.href);
           preview.setAttribute("style", makeStyle(row.image));
 
+          // create text element
+          var text = document.createElement("div");
+          text.className = "gallerywidget-text";
+
           // create title, subtitle elements
           var title = document.createElement("div");
           title.className = "gallerywidget-title";
@@ -37,9 +41,12 @@ HTMLWidgets.widget({
           subtitle.className = "gallerywidget-subtitle";
           subtitle.textContent = row.subtitle;
 
-          // append title, subtitle to preview
-          preview.appendChild(title);
-          preview.appendChild(subtitle);
+          // append title, subtitle to text
+          text.appendChild(title);
+          text.appendChild(subtitle);
+
+          // append text to preview
+          preview.appendChild(text);
 
           // append preview to enclosing element
           el.appendChild(preview);
