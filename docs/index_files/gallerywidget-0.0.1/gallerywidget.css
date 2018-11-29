@@ -1,18 +1,15 @@
-/* adapted from https://bl.ocks.org */
+/* adapted from https://bl.ocks.org and https://vega.github.io/vega-lite */
 
-/* using 20px at top - when preview elements are placed,
- * each is "dragged" up by 10px, leaving 10px at top
- * and bottom of the gallerywidget
- */
 .gallerywidget {
-  margin: 20px 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .gallerywidget-text {
   position: relative;
-  background: linear-gradient(rgba(240, 240, 240, 0.6), rgba(240, 240, 240, 0.1));
-  height: 100%;
-  padding: 8px 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: auto;
+  margin-top: 10px;
+  padding: 5px 10px;
 }
 
 .gallerywidget-title {
@@ -29,14 +26,13 @@
 }
 
 .gallerywidget-preview {
-    width: 232px;
-    height: 82px;
+    width: 222px;
+    height: 102px;
 
     font-size: 14px;
     color: #000;
-    /* "drags"" the element up 10 px, see .gallerywidget css */
-    margin: -10px 0 10px 0;
 
+    margin: 0 10px 10px 0;
     background-position: left top;
     background-size: cover;
     border: solid 1px #eee;
@@ -59,19 +55,19 @@
 }
 
 .gallerywidget-preview:hover, .gallerywidget-preview:focus {
+  color: #000;
   background-color: #eee;
   background-position: 50% 100%;
   text-decoration: none;
   /*  adapted from https://vega.github.io/vega-lite/
-   *  - thicker, blue border when hovered
-   *  - adjust padding to compensate
+   *  blue border when hovered
    */
-  border: solid 2px #4682b4;
+  border: solid 1px #4682b4;
 }
 
-.gallerywidget-text:hover, .gallerywidget-text:focus {
-  padding: 7px 9px;
-}
+
+
+
 
 
 
